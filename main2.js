@@ -14,7 +14,7 @@ $(document).on('ready', function() {
 		
 		if (conf === false) {
 			e.preventDefault();
-			$('a', this).hide();
+			$(this).hide();
 		}
 	});
 
